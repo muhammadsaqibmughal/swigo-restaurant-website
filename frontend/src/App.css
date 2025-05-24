@@ -1,0 +1,1127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+
+body {
+    overflow-x: hidden;
+    font-family: Poppins, sans-serif;
+}
+
+/* navBar CSS */
+.nav {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav.active {
+    border-bottom: 2px solid #84ad47;
+}
+
+.navIcon {
+    margin: 5px;
+    background-color: #84ad47;
+
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.navIcon:hover {
+    background-color: #52830a;
+
+}
+
+.nav:hover {
+    color: #84ad47;
+}
+
+.nav1 {
+    background-color: red;
+}
+
+/* navBar CSS Close */
+
+
+/* Home CSS */
+/* Carousal CSS */
+
+
+.custom-carousel .custom-caption {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    bottom: 10%;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(87, 84, 2, 0.7);
+    padding: 0.1vw;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    
+    height: auto;
+}
+.custom-carousel .carousel-indicators {
+    display: none;
+  }
+.title {
+    font-family: 'Lobster', sans-serif;
+    font-size: 6vw;
+    font-weight: 400;
+    line-height: 6vw;
+    color: rgb(255, 254, 254)
+}
+
+.typing-text {
+    color: #84ad47;
+    display: inline-block;
+}
+
+.shopBtn {
+    background-color: white;
+    font-size: 1.6vw;
+    padding: 0.8vw 1.2vw;
+    text-decoration: none;
+    color: #84ad47;
+    border-radius: 0.8vw;
+    align-self: center;
+
+}
+
+.shopBtn:hover {
+    background-color: #84ad47;
+    color: white;
+    
+}
+
+/* Carousal CSS Close */
+
+
+/* main menu */
+.MainMenu
+{
+    height: 700px;
+    /* margin-bottom: 5vw; */
+}
+@media(max-width: 1024px){
+    .MainMenu
+{
+    height: 1100px;
+    
+}
+}
+@media(max-width: 768px){
+    .MainMenu
+{
+    height: 1600px;
+    
+}
+}
+
+.MainMenu .mainMenu-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MainMenu .MenuhHead{
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+   
+}
+
+.head{
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: 4.5vw;
+    font-weight: 400;
+    line-height: 6vw;
+}
+
+
+
+
+/* card css */
+
+.mainWrapper .overlap {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    height: 415px;
+    left: 2vw;
+    
+    position: relative;
+    width: 270px;
+    border: 1px solid rgba(0, 0, 0, 0.1) ;
+}
+
+.mainWrapper .backgroundcircle {
+    background-color: #ffffff;
+    border-radius: 72px;
+    height: 144px;
+    left: 63px;
+    position: absolute;
+    top: 51px;
+    width: 144px;
+}
+
+
+.mainWrapper .group-desktop {
+    height: 46px;
+    left: 69px;
+    position: absolute;
+    top: 334px;
+    width: 135px;
+}
+
+.mainWrapper .addtocart-wrapper {
+    background-color: #7da640;
+    border-radius: 7px;
+    height: 46px;
+    position: relative;
+    width: 133px;
+}
+
+.mainWrapper .addtocart {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    background-color: #7da640;
+   
+    border: none;
+}
+
+.mainWrapper .title {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    left: 101px;
+    line-height: normal;
+    position: absolute;
+    top: 206px;
+}
+
+.mainWrapper .price {
+    color: #7da640;
+    font-size: 20px;
+    font-weight: 500;
+    left: 107px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 296px;
+}
+
+.mainWrapper .description {
+    height: 42px;
+    left: 45px;
+    position: absolute;
+    top: 247px;
+    width: 198px;
+}
+
+.mainWrapper .text-wrapper {
+    color: #ababab;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+
+
+.mainWrapper .imagecircle {
+    background-color: #961e1e;
+    border-radius: 59px;
+    height: 118px;
+    left: 76px;
+    position: absolute;
+    top: 64px;
+    width: 118px;
+    transition: transform 3s ease ; 
+   
+}
+.overlap:hover .imagecircle{
+    transform: rotate(360deg); 
+}
+
+
+.overlap:hover .svgColor {
+    fill: #7da640 ;
+    transition:fill 1s ease-in ;
+  }
+ 
+
+  .overlap:hover  {
+    border: 2px solid #7da640;
+    background-color: rgba(94, 88, 88, 0.1);
+    transition:background-color 1s ease-in ;
+  }
+  .mainWrapper .addtocart:hover{
+    font-size: 18px;
+    left: 16px;
+    top: 10px;
+  }
+ 
+
+/* Quality Services */
+.ourServices{
+    padding: 10px 0; 
+    background-color: #F4FDE7;
+    padding-bottom: 100px;
+}
+
+.ourServices .servicesCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ourServices .ServiceHead {
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.QWrapper{
+    background-color: #ffffff;
+    padding: 25px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;;
+}
+.ourServices .Card2Back{
+    background-color: white;
+}
+.QWrapper img{
+    width: 90px;
+}
+.QWrapper .img-wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+.QWrapper p{
+    width: 200px;
+}
+.QWrapper .text-wrapper{
+    padding-top: 30px;
+    text-align: center;
+}
+.QWrapper:hover{
+    background-color: rgb(125, 166, 64);
+  
+    border-radius: 5px;
+    color: white;
+    transition: background-color 1s ease; 
+}
+
+/* gallary */
+
+.Gallary{
+    background-color: #F4FDE7;
+    padding-bottom: 100px;
+}
+.Gallary .gallaryCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Gallary .gHead{
+    padding-bottom: 4vw;
+}
+.Gallary img{
+    border-radius: 10px;
+}
+
+.Gallary .Gwrapper{
+    position: relative;
+    margin: 20px;
+}
+
+
+
+.Gallary .Gwrapper .gData{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 150px;
+    padding: 10px;
+    padding-top: 40px;
+    width: 260px;
+    background-color: rgba(125, 166, 64,0.8);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+.Gallary .Gwrapper .gData .gCart{
+   
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.Gallary .gCart IoCartOutline
+{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Gallary .Text{
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.Gallary h3{
+    color: rgb(255,200,34);
+}
+
+.Gallary .Gwrapper:hover .gData{
+    opacity: 1;
+}
+
+
+/* Reservation CSS */
+
+
+.reservation {
+    position: relative;
+    width: 100%;
+    height: 750px; 
+    margin-bottom: 100px;
+    background-attachment: fixed;
+  }
+  
+ 
+
+  .reservation::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('/images/28.jpg') center no-repeat;
+    filter: blur(10px); 
+    z-index: -1; 
+  }
+
+  .reservation .reservation-overlay
+  {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 750px;  
+  }
+  
+  .reservation .rHead{
+    padding-top: 5vw;
+    color: white;
+    margin-bottom: 5vw;
+  }
+
+  .reservation .inputDesign{
+    background-color: transparent;
+    margin-left: 1.5vw;
+    margin-bottom: 1vw;
+    border: none;
+  }
+
+
+  .reservation .inputWrapper input,select{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+    width: 250px;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+
+  input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+
+  .reservation .inputWrapper {
+    border-bottom: 1px solid white;
+    margin-bottom: 8vw;
+  }
+  .reservation .inputWrapper select option{
+        color: #000000;
+  }
+
+  .reservation .inputWrapper input,select:focus{
+    border-color: transparent;
+    outline: none;
+  }
+
+  .reservation .inputWrapper input::placeholder {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+
+  .reservation .reservBtn{
+    background-color: white;
+    color: #7da640;
+    margin-left: 10vw;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    font-weight: 500;
+  }
+  .reservation .reservBtn:hover{
+    background-color:#7da640;
+    color: white;
+    transition: background-color 0.5s ease-in;
+    transition: color 0.5s ease-in;
+
+  }
+
+  /* customer feedback CSS */
+  .customer-feedback{
+    margin-bottom: 10vw;
+  }
+  .customer-feedback .cHead{
+    margin-top: 4vw;
+    margin-bottom: 6vw;
+
+  }
+ .customer-feedback .customer-carousal-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #7da640; 
+  color: black; 
+  border-radius: 50%;
+  padding: 20px;
+}
+
+/* newsletter */
+.newsLetter{
+    background-color:#F4FDE7 ;
+    padding-bottom: 10vw;
+}
+.newsLetter .newsHead{
+    padding-top: 4vw;
+    padding-bottom: 6vw;
+}
+
+.newsLetter .news-wrapper{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #7da640;
+    border-radius: 4vw;
+    width: 70%;
+    height: 15vw;
+    padding-bottom: 2vw;
+
+}
+.newsLetter .news-wrapper input{
+    width: 35vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    border: none;
+}
+.newsLetter .news-wrapper input:focus{
+    border: none;
+    outline: none;
+}
+.newsLetter .news-wrapper button{
+    font-size: 1.5vw;
+    border: none;
+    background-color: rgb(255,200,34);
+    border-top-right-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    color: white;
+}
+/* Home CSS close */
+
+
+/* Footer css */
+.footer{
+    background-color: rgb(34,34,34);
+    color: white;
+    padding-top: 6vw;
+}
+.footer .fTitle{
+    font-weight: 600;
+    padding-bottom: 2vw;
+}
+
+.footer .contact-detail{
+    display: flex;
+}
+
+.footer .link-detail .link{
+    text-decoration: none;
+    color: white;
+}
+.footer .link-detail .link p:hover{
+    color: #7da640;
+}
+
+.footer .copyRights{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer close */
+
+/* About Us CSS */
+/* Card 4 CSS */
+
+.AWrapper{
+    background-color: #F4FDE7;
+    padding: 25px;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.AWrapper img{
+    width: 100px;
+    padding: 20px;
+     
+}
+.AWrapper .img-wrapper span{
+    background-color: #7da640;
+    border-radius: 100px;
+}
+.AWrapper:hover span{
+    background-color:white;
+    transition: background-color 0.5s ease;
+}
+.AWrapper .img-wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+.AWrapper p{
+    width: 200px;
+}
+.AWrapper .text-wrapper{
+    padding-top: 30px;
+    text-align: center;
+}
+.AWrapper:hover{
+    background-color: rgb(125, 166, 64);
+    border-radius: 5px;
+    color: white;
+    transition: background-color 2s ease;
+    transform: translate(0px,-20px); 
+    transition: transform 0.5s ease;
+}
+
+/* Card 4 Close */
+.aboutD {
+    margin-bottom: 6vw;
+}
+
+.aboutD .about-text,.res-video,.aboutCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.aboutD .about-text{
+    margin-top: 6vw;
+    margin-bottom: 4vw;
+}
+.aboutD .about-text p
+{
+   font-family: Poppins, sans-serif; 
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   color:  rgb(42, 44, 46);
+
+}
+.aboutD .res-video iframe{
+    border-radius: 15px;
+}
+.aboutD .res-video{
+    margin-bottom: 6vw;
+}
+
+/* Abouts Us close */
+
+/* main Header CSS */
+.MainHeader{
+    height: 30vw;
+    background-image: url("/images/bg13.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.MainHeader .headerOverlay
+{
+    height: 30vw;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.mHeader .mHead{
+    color: white;
+    padding-top: 10vw;
+    padding-bottom: 1vw;
+}
+.mHeader p {
+font-weight: 500;
+padding: 1vw 2vw 1vw 2vw;
+background-color:#7da640;
+display: inline-block;
+font-size: 1.2vw;
+border-radius: 10px;
+color:white
+}
+
+.mHeader .navLoc{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+/* main Header Close */
+
+
+/* Contact US */
+
+/* Contact Card */
+.contactCard:hover{
+    background-color: #ffffff;
+    transform: translate(0px,-10px);
+    transition: transform 0.5s ease;
+}
+.contactCard:hover .contactIcon{
+    background-color: #F4FDE7;
+}
+.contactCard-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contactCard{
+    top: -10px;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #7da640;
+    box-shadow: 3px 3px 8px;
+    margin-bottom: 100px;
+}
+
+
+
+.contactCard .contactIcon{
+    position: absolute;
+    top: -55px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 3px 3px 5px;
+
+}
+.contactDetail{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+/* Contact Card close */
+.contactMain{
+    position: relative;
+    background-color: #F4FDE7;
+    margin-top: 10vw;
+    padding-bottom: 4vw;
+    margin-bottom: 4vw;
+    border-radius: 10px;
+}
+
+
+.contactReserve .seatWrapper{
+    background-color: transparent;
+    margin-left: 1.5vw;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  
+  .contactReserve .contact-wrapper{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+  .contactReserve .seatWrapper input{
+    border-color: transparent;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 3px;
+    width: 400px;
+    margin: 1.5vw 0vw 1vw 0vw;
+  }
+
+
+
+  .contactReserve .seatWrapper input:focus {
+    border-color: transparent;
+    outline: none;
+  }
+
+
+  .contactReserve .seatWrapper input::placeholder {
+    font-size: 18px;
+    color: #030303;
+    /* font-weight: 600; */
+    letter-spacing: 3px;
+  }
+  .contactReserve .seatWrapper label{
+    color: #7da640;
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+  }
+
+  .contactReserve .contactBtn{
+    margin-top: 3vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactReserve .contactBtn button{
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1vw 2vw 1vw 2vw;
+    background-color: #7da640;
+    border-radius: 10px;
+  }
+
+  .contactReserve .contactBtn button:hover{
+    color: #7da640;
+    background-color: white;
+    border: 1px solid #7da640;
+    transition: border 1s ease;
+    transition: background-color 1s ease;
+  }
+/* Contact US Close */
+
+/* Team CSS */
+
+/* Team Card */
+/* .team .teamHead{
+    margin-top: 6vw;
+}
+
+.teamContainer{
+    position: relative;
+    box-shadow: 40px 10px 50px -15px;
+    margin: 3vw;
+    margin-right: 3vw;
+}
+
+.teamContainer .teamImg .img{
+    
+    border-radius: 20px;
+}
+.teamCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.teamContainer .teamData-wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 10px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.teamContainer .teamData-wrapper .teamSocial{
+    margin-left: 50px;
+    margin-top: 16px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #7da640;
+}
+
+
+.teamContainer .socialIcon{
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+   
+}
+.teamContainer .overlyTop{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    bottom: 20px;
+    border-radius: 10px;
+    right: 0;
+}
+.teamContainer .overlyTop:hover + .socialIcon{
+    opacity: 1;
+    transform: translate(0px,-40px);
+    transition: transform 0.5s ease;
+}
+
+.teamContainer .socialIcon .teamSocial1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16px;
+        width: 40px;
+        height: 40px;
+        background-color: #7da640;
+        border-radius: 10px;
+}
+.teamContainer .socialIcon{
+    opacity: 0;
+} */
+/* Team Card close */
+
+/* Team CSS Close */
+
+
+/* Menu CSS */
+
+.Menu{
+    margin-top: 4vw;
+    margin-bottom: 6vw;
+}
+.Menu .Icon_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4vw;
+}
+.Menu  .Icon_wrapper .menuIcon{
+    color: #000000;
+    text-decoration: none;
+    margin: 2vw;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Menu  .Icon_wrapper .menuIcon:hover{
+    color: #7da640;
+}
+.Menu  .Icon_wrapper .menuIcon h5{
+    padding-top: 0.8vw;
+    padding-left: 0.2vw;
+}
+
+/* menu card Css*/
+
+
+    .menuCard-wrapper{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+        width: 300px !important;
+        margin: 50px 30px;
+        background-color: white;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: 10px 10px 40px -20px;
+        padding-bottom: 20px;
+        
+    }
+    .MenuRow{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+    .menuCard-wrapper:hover{
+        transform: translate(0px,-15px);
+        transition: transform 1s ease;
+    }
+    .menuCard-wrapper:hover .ItemWrapper .ItemDetail .itemTitle{
+        color: #7da640;
+    }
+    .menuCard-wrapper .ItemImg img{
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        
+    }
+    .menuCard-wrapper .rating{
+        position: absolute;
+        bottom: 160px;
+        right: 20px;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        padding: 5px 10px 5px 10px;
+        border-radius: 10px;
+    }
+    .menuCard-wrapper .topSeller{
+        border-top-left-radius: 20px;
+        font-weight: 600;
+        line-height: 19px;
+        color: white;
+        font-family: Poppins, sans-serif;
+        font-size: 12px;
+        background-color: #FE9F10;
+        padding: 7px;
+        border-bottom-right-radius: 10px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .menuCard-wrapper .ItemDetail p{
+        color:rgb(102, 102, 102);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+        padding: 2px 20px 2px 20px;
+        font-family: Poppins, sans-serif;
+        text-align: center;
+    }
+    .menuCard-wrapper .ItemDetail .itemPrice{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 10px;
+        font-family:Poppins, sans-serif ;
+        color: #7da640;
+    }
+
+    .menuCard-wrapper .ItemDetail .itemTitle{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;
+            font-family: Poppins, sans-serif;
+            color: #000000;
+            text-decoration: none;
+    }
+    .menuCard-wrapper .ItemDetail
+    {
+        width: 300px;
+        height: 120px;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+/* Menu Card Css Clsoe */
+
+
+/* Menu CSS Close */
+
+
+/* Shop CSS */
+.shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shop .ShopSearch{
+        margin-top: 40px;
+        background-color: white;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0.7vw;
+        border-radius: 20px;
+        box-shadow: 5px 3px 30px -15px;
+        margin-bottom: 60px;
+        
+}
+.shop .ShopSearch button{
+    border: none;
+    outline: none;
+    font-size: 1.7vw;
+    background-color: #7da640;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    box-shadow: 5px 3px 30px -5px;
+}
+.shop .ShopSearch button:hover{
+    color: #7da640;
+    background-color: #F4FDE7;
+    transition: color .5s ease;
+    transition: background-color .5s ease;
+}
+.shop .ShopSearch input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+}
+.shop .shop-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+}
+
+/* Shop CSS End */

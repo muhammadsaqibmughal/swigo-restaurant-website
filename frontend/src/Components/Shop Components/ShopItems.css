@@ -1,0 +1,34 @@
+
+
+ .searchResult{
+    margin-bottom: 40px; 
+    width: 100%;
+
+}
+
+ .searchResult .searchRs{
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(34, 34, 34);
+    display: flex;
+    float: left;
+}
+ .searchResult .searchRsCount{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(75, 74, 74);
+    display: flex;
+    float: right;
+}
+
+.shopItem-wrapper{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

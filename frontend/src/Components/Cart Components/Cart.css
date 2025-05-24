@@ -1,0 +1,158 @@
+.cartCard-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid rgba(34, 34, 34,0.4);
+    margin: 40px 20px;
+  }
+
+  .cartImg {
+    margin-right: 1vw;
+  }
+  
+  .cartData {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .cartItemName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%; 
+  }
+  
+  .cartItemName h3 {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(34, 34, 34);
+  }
+  .cartItemName button{
+    background-color: transparent;
+    border: none;
+  }
+  
+  .cartCount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 15px;
+  }
+  
+  .cartCount div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cartCount button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: auto; 
+    color: #7da640;
+  }
+  .cartItemPrice .cartCount .count-wrapper{
+    background-color: beige;
+    border-radius: 4px;
+    padding: 4px;
+  }
+
+  /* bill Css */
+
+  .bill-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 40px 0px;
+  }
+  .bill-wrapper .gst, .total,.bill-rate div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+
+  }
+
+.bill-wrapper .ammount {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  line-height: 26px;
+  color: #7da640;
+}
+.bill-wrapper .Btitle{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  line-height: 26px;
+  color: rgb(68, 68, 68);
+}
+.bill-wrapper .bHead{
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  line-height: 26px;
+  color: rgb(68, 68, 68);
+}
+.bill-wrapper .bill-rate{
+  border-bottom: 1px dashed grey;
+  margin-bottom: 10px;
+}
+
+.bill-wrapper .gst{
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.bill-wrapper .paybnt button{
+   background-color: #7da640;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  line-height: 26px;
+}
+.bill-wrapper .paybnt button:hover{
+  background-color: transparent;
+  border: 2px solid #7da640;
+  color: #7da640;
+  transition: background-color 1s ease;
+  transition: color 1s ease;
+  transition: border 1s ease;
+}
+.relatedItms{
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  line-height: 26px;
+  color: rgb(68, 68, 68);
+}
+.cart-wrapper{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+  /* bill css close */
+  
