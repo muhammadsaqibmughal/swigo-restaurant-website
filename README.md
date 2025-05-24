@@ -4,7 +4,8 @@
 
 **Swingo** is a fully responsive, modern, and elegant restaurant website built using **React.js** and custom **CSS**. It features a clean, intuitive design with static pages including **registration and login page** and **table reservation booking page** — making it ideal for restaurant owners or developers looking for a restaurant web template.<br>
 
-> 🔗 **Live Demo**: [https://swigo-restaurant-website-eight.vercel.app/]<br>
+> 🔗 **[Live Demo →] (https://swigo-restaurant-website-eight.vercel.app/)**<br>
+
 
 
 ## 🚀 Key Features
